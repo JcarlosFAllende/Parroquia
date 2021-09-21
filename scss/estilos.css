@@ -1,0 +1,131 @@
+html {
+  font-size: 15px;
+}
+
+.bienvenidos {
+  background: url("../images/fondo_peque.png");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fixed-top {
+  background: #fff;
+  margin-bottom: 10px;
+  opacity: .9;
+}
+
+.navbar-light .navbar-brand {
+  color: black;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: #fd7e14;
+}
+
+.navbar-toggler {
+  font-size: 1.6rem;
+  color: black !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #fd7e14;
+}
+
+.texto-bienvenido {
+  color: #fff;
+  margin-top: 7rem;
+}
+
+.btn-info {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.carousel-inner img {
+  height: 90vh;
+}
+
+/*Estilos nosotros*/
+.nosotros {
+  background: #f9f4c5;
+}
+
+.servicios .fas {
+  font-size: 6rem;
+}
+
+.servicios h5 {
+  font-weight: bold;
+}
+
+.videos {
+  background: #f9f4c5;
+}
+
+.videos h5 {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #071910;
+}
+
+.footer h5 {
+  color: white;
+}
+
+.footer h2 {
+  color: white;
+}
+
+/*Empieza los medias queries*/
+@media (min-width: 768px) {
+  #navbarTogglerDemo02 {
+    clear: inherit;
+  }
+}
+
+@media (min-width: 660px) {
+  .bienvenidos {
+    background: url("../images/fondo_grande.png");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 996px) {
+  .fixed-top {
+    background: #fff;
+    margin-bottom: 10px;
+    opacity: .9;
+    padding: 0.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .fixed-top {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+    -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+  }
+  .texto-bienvenido {
+    color: #fff;
+    margin-top: 13rem;
+  }
+  html {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
